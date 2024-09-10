@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_node[0m
+/usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::PinReader(int)':
+my_node.cpp:(.text._ZN9PinReaderC2Ei[_ZN9PinReaderC5Ei]+0x20): undefined reference to `gpioInitialise'
+/usr/bin/ld: my_node.cpp:(.text._ZN9PinReaderC2Ei[_ZN9PinReaderC5Ei]+0x74): undefined reference to `gpioSetMode'
+/usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::readPinState()':
+my_node.cpp:(.text._ZN9PinReader12readPinStateEv[_ZN9PinReader12readPinStateEv]+0x14): undefined reference to `gpioRead'
+/usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::~PinReader()':
+my_node.cpp:(.text._ZN9PinReaderD2Ev[_ZN9PinReaderD5Ev]+0xc): undefined reference to `gpioTerminate'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/my_node.dir/build.make:159: my_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

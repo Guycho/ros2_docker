@@ -1,0 +1,15 @@
+[0.033s] Invoking command in '/home/ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/my_package -- -j4 -l4
+[0.176s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[15.112s] [100%] [32m[1mLinking CXX executable my_node[0m
+[15.833s] /usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::PinReader(int)':
+[15.833s] my_node.cpp:(.text._ZN9PinReaderC2Ei[_ZN9PinReaderC5Ei]+0x20): undefined reference to `gpioInitialise'
+[15.833s] /usr/bin/ld: my_node.cpp:(.text._ZN9PinReaderC2Ei[_ZN9PinReaderC5Ei]+0x74): undefined reference to `gpioSetMode'
+[15.837s] /usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::readPinState()':
+[15.837s] my_node.cpp:(.text._ZN9PinReader12readPinStateEv[_ZN9PinReader12readPinStateEv]+0x14): undefined reference to `gpioRead'
+[15.837s] /usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::~PinReader()':
+[15.837s] my_node.cpp:(.text._ZN9PinReaderD2Ev[_ZN9PinReaderD5Ev]+0xc): undefined reference to `gpioTerminate'
+[15.889s] collect2: error: ld returned 1 exit status
+[15.893s] gmake[2]: *** [CMakeFiles/my_node.dir/build.make:159: my_node] Error 1
+[15.894s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2
+[15.894s] gmake: *** [Makefile:146: all] Error 2
+[15.898s] Invoked command in '/home/ws/build/my_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/my_package -- -j4 -l4

@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.001114] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002660] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.031438] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.032551] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/ws/my_package', '-DCMAKE_INSTALL_PREFIX=/home/ws/install/my_package'], 'cwd': '/home/ws/build/my_package', 'env': OrderedDict([('HOSTNAME', 'rospi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ws/build/my_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/my_package:/opt/ros/humble'), ('ROS2_WS', '/opt/ros/humble')]), 'shell': False}
+[0.099343] (-) TimerEvent: {}
+[0.200018] (-) TimerEvent: {}
+[0.209711] (my_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300262] (-) TimerEvent: {}
+[0.388009] (my_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.400409] (-) TimerEvent: {}
+[0.407003] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500598] (-) TimerEvent: {}
+[0.601767] (-) TimerEvent: {}
+[0.610210] (my_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.634534] (my_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.635546] (my_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.635843] (my_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.644055] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.702079] (-) TimerEvent: {}
+[0.806058] (-) TimerEvent: {}
+[0.886345] (my_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.906247] (-) TimerEvent: {}
+[0.936053] (my_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.938253] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.940633] (my_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.950974] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.006403] (-) TimerEvent: {}
+[1.107201] (-) TimerEvent: {}
+[1.208196] (-) TimerEvent: {}
+[1.309091] (-) TimerEvent: {}
+[1.358213] (my_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.409239] (-) TimerEvent: {}
+[1.509999] (-) TimerEvent: {}
+[1.610754] (-) TimerEvent: {}
+[1.625992] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.710910] (-) TimerEvent: {}
+[1.811881] (-) TimerEvent: {}
+[1.877553] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.878397] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ws/my_package/include>\n'}
+[1.878835] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.880359] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.883890] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.884406] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.884933] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.890140] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902176] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.902846] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/ws/build/my_package\n'}
+[1.912081] (-) TimerEvent: {}
+[1.915328] (my_package) CommandEnded: {'returncode': 0}
+[1.916747] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[1.918950] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/ws/build/my_package', 'env': OrderedDict([('HOSTNAME', 'rospi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ws/build/my_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/my_package:/opt/ros/humble'), ('ROS2_WS', '/opt/ros/humble')]), 'shell': False}
+[2.012254] (-) TimerEvent: {}
+[2.040950] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[2.112446] (-) TimerEvent: {}
+[2.125481] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[2.214105] (-) TimerEvent: {}
+[2.264747] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[2.292567] (my_package) CommandEnded: {'returncode': 0}
+[2.315150] (-) TimerEvent: {}
+[2.347295] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[2.369753] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ws/build/my_package'], 'cwd': '/home/ws/build/my_package', 'env': OrderedDict([('HOSTNAME', 'rospi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ws/build/my_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/my_package:/opt/ros/humble'), ('ROS2_WS', '/opt/ros/humble')]), 'shell': False}
+[2.390055] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.391665] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/lib/my_package/my_node\n'}
+[2.392283] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[2.392638] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[2.393096] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[2.393549] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[2.394057] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/environment/path.sh\n'}
+[2.394562] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[2.395008] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/local_setup.bash\n'}
+[2.395439] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/local_setup.sh\n'}
+[2.395973] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[2.396459] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[2.396902] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/package.dsv\n'}
+[2.397535] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[2.398150] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[2.398606] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[2.399034] (my_package) StdoutLine: {'line': b'-- Installing: /home/ws/install/my_package/share/my_package/package.xml\n'}
+[2.407406] (my_package) CommandEnded: {'returncode': 0}
+[2.415254] (-) TimerEvent: {}
+[2.518121] (-) TimerEvent: {}
+[2.527715] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[2.530389] (-) EventReactorShutdown: {}

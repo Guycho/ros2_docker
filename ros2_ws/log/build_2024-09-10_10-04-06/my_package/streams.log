@@ -1,0 +1,11 @@
+[0.033s] Invoking command in '/home/ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/my_package -- -j4 -l4
+[0.165s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.200s] In file included from [01m[K/home/ws/my_package/src/my_node.cpp:1[m[K:
+[0.200s] [01m[K/home/ws/my_package/include/my_package/my_node.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.201s]     4 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.201s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.201s] compilation terminated.
+[0.204s] gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76: CMakeFiles/my_node.dir/src/my_node.cpp.o] Error 1
+[0.204s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2
+[0.205s] gmake: *** [Makefile:146: all] Error 2
+[0.209s] Invoked command in '/home/ws/build/my_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/my_package -- -j4 -l4

@@ -1,0 +1,12 @@
+[0.032s] Invoking command in '/home/ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/my_package -- -j4 -l4
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[0.784s] In file included from [01m[K/home/ws/my_package/include/my_package/my_node.hpp:6[m[K,
+[0.785s]                  from [01m[K/home/ws/my_package/src/my_node.cpp:1[m[K:
+[0.785s] [01m[K/home/ws/my_package/include/my_package/PinReader.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kpigpio.h: No such file or directory
+[0.785s]     5 | #include [01;31m[K<pigpio.h>[m[K
+[0.786s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.786s] compilation terminated.
+[0.790s] gmake[2]: *** [CMakeFiles/my_node.dir/build.make:76: CMakeFiles/my_node.dir/src/my_node.cpp.o] Error 1
+[0.790s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2
+[0.791s] gmake: *** [Makefile:146: all] Error 2
+[0.796s] Invoked command in '/home/ws/build/my_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/my_package -- -j4 -l4

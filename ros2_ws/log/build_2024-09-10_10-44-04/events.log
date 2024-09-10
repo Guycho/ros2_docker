@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.001168] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002572] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.029770] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.031876] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.034173] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/ws/build/my_package', 'env': OrderedDict([('HOSTNAME', 'rospi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ws/install/my_package:/opt/ros/humble'), ('PWD', '/home/ws/build/my_package'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/my_package:/opt/ros/humble'), ('ROS2_WS', '/opt/ros/humble')]), 'shell': False}
+[0.099402] (-) TimerEvent: {}
+[0.177214] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[0.200314] (-) TimerEvent: {}
+[0.301091] (-) TimerEvent: {}
+[0.401766] (-) TimerEvent: {}
+[0.502409] (-) TimerEvent: {}
+[0.603055] (-) TimerEvent: {}
+[0.703727] (-) TimerEvent: {}
+[0.804400] (-) TimerEvent: {}
+[0.905069] (-) TimerEvent: {}
+[1.005746] (-) TimerEvent: {}
+[1.106419] (-) TimerEvent: {}
+[1.207162] (-) TimerEvent: {}
+[1.307835] (-) TimerEvent: {}
+[1.408513] (-) TimerEvent: {}
+[1.509331] (-) TimerEvent: {}
+[1.610000] (-) TimerEvent: {}
+[1.710714] (-) TimerEvent: {}
+[1.811374] (-) TimerEvent: {}
+[1.912112] (-) TimerEvent: {}
+[2.012813] (-) TimerEvent: {}
+[2.113544] (-) TimerEvent: {}
+[2.214228] (-) TimerEvent: {}
+[2.314904] (-) TimerEvent: {}
+[2.415582] (-) TimerEvent: {}
+[2.516358] (-) TimerEvent: {}
+[2.617047] (-) TimerEvent: {}
+[2.717735] (-) TimerEvent: {}
+[2.818421] (-) TimerEvent: {}
+[2.919098] (-) TimerEvent: {}
+[3.019875] (-) TimerEvent: {}
+[3.120564] (-) TimerEvent: {}
+[3.221288] (-) TimerEvent: {}
+[3.322059] (-) TimerEvent: {}
+[3.422737] (-) TimerEvent: {}
+[3.523412] (-) TimerEvent: {}
+[3.624105] (-) TimerEvent: {}
+[3.724792] (-) TimerEvent: {}
+[3.825830] (-) TimerEvent: {}
+[3.926507] (-) TimerEvent: {}
+[4.027209] (-) TimerEvent: {}
+[4.127901] (-) TimerEvent: {}
+[4.228583] (-) TimerEvent: {}
+[4.329338] (-) TimerEvent: {}
+[4.430094] (-) TimerEvent: {}
+[4.530801] (-) TimerEvent: {}
+[4.631489] (-) TimerEvent: {}
+[4.732162] (-) TimerEvent: {}
+[4.832845] (-) TimerEvent: {}
+[4.933594] (-) TimerEvent: {}
+[5.034285] (-) TimerEvent: {}
+[5.134982] (-) TimerEvent: {}
+[5.235714] (-) TimerEvent: {}
+[5.336395] (-) TimerEvent: {}
+[5.437068] (-) TimerEvent: {}
+[5.537737] (-) TimerEvent: {}
+[5.638418] (-) TimerEvent: {}
+[5.739088] (-) TimerEvent: {}
+[5.839770] (-) TimerEvent: {}
+[5.940481] (-) TimerEvent: {}
+[6.041208] (-) TimerEvent: {}
+[6.141929] (-) TimerEvent: {}
+[6.242635] (-) TimerEvent: {}
+[6.343329] (-) TimerEvent: {}
+[6.444023] (-) TimerEvent: {}
+[6.544711] (-) TimerEvent: {}
+[6.645472] (-) TimerEvent: {}
+[6.746155] (-) TimerEvent: {}
+[6.846831] (-) TimerEvent: {}
+[6.947514] (-) TimerEvent: {}
+[7.048195] (-) TimerEvent: {}
+[7.148879] (-) TimerEvent: {}
+[7.249641] (-) TimerEvent: {}
+[7.350372] (-) TimerEvent: {}
+[7.451074] (-) TimerEvent: {}
+[7.551808] (-) TimerEvent: {}
+[7.652536] (-) TimerEvent: {}
+[7.753306] (-) TimerEvent: {}
+[7.854012] (-) TimerEvent: {}
+[7.954712] (-) TimerEvent: {}
+[8.055394] (-) TimerEvent: {}
+[8.156093] (-) TimerEvent: {}
+[8.256796] (-) TimerEvent: {}
+[8.357841] (-) TimerEvent: {}
+[8.458518] (-) TimerEvent: {}
+[8.559208] (-) TimerEvent: {}
+[8.659881] (-) TimerEvent: {}
+[8.760553] (-) TimerEvent: {}
+[8.861274] (-) TimerEvent: {}
+[8.961965] (-) TimerEvent: {}
+[9.062661] (-) TimerEvent: {}
+[9.163352] (-) TimerEvent: {}
+[9.264041] (-) TimerEvent: {}
+[9.364724] (-) TimerEvent: {}
+[9.466043] (-) TimerEvent: {}
+[9.566727] (-) TimerEvent: {}
+[9.668038] (-) TimerEvent: {}
+[9.768738] (-) TimerEvent: {}
+[9.869480] (-) TimerEvent: {}
+[9.970155] (-) TimerEvent: {}
+[10.070836] (-) TimerEvent: {}
+[10.171524] (-) TimerEvent: {}
+[10.272210] (-) TimerEvent: {}
+[10.372936] (-) TimerEvent: {}
+[10.473599] (-) TimerEvent: {}
+[10.574272] (-) TimerEvent: {}
+[10.674928] (-) TimerEvent: {}
+[10.775639] (-) TimerEvent: {}
+[10.876366] (-) TimerEvent: {}
+[10.977051] (-) TimerEvent: {}
+[11.077753] (-) TimerEvent: {}
+[11.178699] (-) TimerEvent: {}
+[11.279374] (-) TimerEvent: {}
+[11.380055] (-) TimerEvent: {}
+[11.480715] (-) TimerEvent: {}
+[11.581446] (-) TimerEvent: {}
+[11.682133] (-) TimerEvent: {}
+[11.782818] (-) TimerEvent: {}
+[11.883929] (-) TimerEvent: {}
+[11.984619] (-) TimerEvent: {}
+[12.085370] (-) TimerEvent: {}
+[12.186038] (-) TimerEvent: {}
+[12.286709] (-) TimerEvent: {}
+[12.387411] (-) TimerEvent: {}
+[12.488082] (-) TimerEvent: {}
+[12.588756] (-) TimerEvent: {}
+[12.689480] (-) TimerEvent: {}
+[12.790163] (-) TimerEvent: {}
+[12.890842] (-) TimerEvent: {}
+[12.991932] (-) TimerEvent: {}
+[13.092623] (-) TimerEvent: {}
+[13.193939] (-) TimerEvent: {}
+[13.294615] (-) TimerEvent: {}
+[13.395309] (-) TimerEvent: {}
+[13.495982] (-) TimerEvent: {}
+[13.596663] (-) TimerEvent: {}
+[13.697406] (-) TimerEvent: {}
+[13.798118] (-) TimerEvent: {}
+[13.898796] (-) TimerEvent: {}
+[13.999466] (-) TimerEvent: {}
+[14.100171] (-) TimerEvent: {}
+[14.200865] (-) TimerEvent: {}
+[14.301558] (-) TimerEvent: {}
+[14.402166] (-) TimerEvent: {}
+[14.502849] (-) TimerEvent: {}
+[14.603517] (-) TimerEvent: {}
+[14.704222] (-) TimerEvent: {}
+[14.804932] (-) TimerEvent: {}
+[14.905677] (-) TimerEvent: {}
+[15.006605] (-) TimerEvent: {}
+[15.113078] (-) TimerEvent: {}
+[15.114781] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[15.213265] (-) TimerEvent: {}
+[15.314472] (-) TimerEvent: {}
+[15.417129] (-) TimerEvent: {}
+[15.518029] (-) TimerEvent: {}
+[15.618781] (-) TimerEvent: {}
+[15.720089] (-) TimerEvent: {}
+[15.821153] (-) TimerEvent: {}
+[15.834493] (my_package) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::PinReader(int)':\n"}
+[15.835852] (my_package) StderrLine: {'line': b"my_node.cpp:(.text._ZN9PinReaderC2Ei[_ZN9PinReaderC5Ei]+0x20): undefined reference to `gpioInitialise'\n"}
+[15.836170] (my_package) StderrLine: {'line': b"/usr/bin/ld: my_node.cpp:(.text._ZN9PinReaderC2Ei[_ZN9PinReaderC5Ei]+0x74): undefined reference to `gpioSetMode'\n"}
+[15.839295] (my_package) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::readPinState()':\n"}
+[15.839726] (my_package) StderrLine: {'line': b"my_node.cpp:(.text._ZN9PinReader12readPinStateEv[_ZN9PinReader12readPinStateEv]+0x14): undefined reference to `gpioRead'\n"}
+[15.839984] (my_package) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/my_node.dir/src/my_node.cpp.o: in function `PinReader::~PinReader()':\n"}
+[15.840222] (my_package) StderrLine: {'line': b"my_node.cpp:(.text._ZN9PinReaderD2Ev[_ZN9PinReaderD5Ev]+0xc): undefined reference to `gpioTerminate'\n"}
+[15.891992] (my_package) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[15.895445] (my_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_node.dir/build.make:159: my_node] Error 1\n'}
+[15.896181] (my_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node.dir/all] Error 2\n'}
+[15.896686] (my_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.900863] (my_package) CommandEnded: {'returncode': 2}
+[15.921326] (-) TimerEvent: {}
+[15.999622] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 2}
+[16.010891] (-) EventReactorShutdown: {}

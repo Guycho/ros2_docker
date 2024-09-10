@@ -1,0 +1,10 @@
+[0.032s] Invoking command in '/home/ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/my_package -- -j4 -l4
+[0.088s] [31mCMake Error at CMakeLists.txt:40:
+[0.089s]   Parse error.  Expected a newline, got identifier with text
+[0.089s]   "cmake_minimum_required".
+[0.090s] 
+[0.090s] [0m
+[0.091s] -- Configuring incomplete, errors occurred!
+[0.092s] See also "/home/ws/build/my_package/CMakeFiles/CMakeOutput.log".
+[0.092s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.099s] Invoked command in '/home/ws/build/my_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/my_package -- -j4 -l4
